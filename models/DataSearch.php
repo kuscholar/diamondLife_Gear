@@ -4,12 +4,12 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Article;
+use app\models\Data;
 
 /**
- * ArticleSearch represents the model behind the search form of `app\models\Article`.
+ * DataSearch represents the model behind the search form of `app\models\Data`.
  */
-class ArticleSearch extends Article
+class DataSearch extends Data
 {
     /**
      * {@inheritdoc}
@@ -40,7 +40,7 @@ class ArticleSearch extends Article
      */
     public function search($params)
     {
-        $query = Article::find();
+        $query = Data::find();
 
         // add conditions that should always apply here
 

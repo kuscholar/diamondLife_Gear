@@ -3,9 +3,12 @@
 namespace app\models;
 
 use Yii;
+use yii\behaviors\BlameableBehavior;
+use yii\behaviors\SluggableBehavior;
+use yii\behaviors\TimestampBehavior;
 
 /**
- * This is the model class for table "article".
+ * This is the model class for table "data".
  *
  * @property int $id
  * @property string $title
@@ -17,14 +20,30 @@ use Yii;
  *
  * @property User $createdBy
  */
-class Article extends \yii\db\ActiveRecord
+class Data extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return 'article';
+        return 'data';
+    }
+
+    public function behaviors()
+    {
+        return [
+            TimestampBehavior::class,
+            [
+                'class' => BlameableBehavior::class,
+                'updatedByAttribute' => false
+            ],
+            [
+                'class' => SluggableBehavior::class,
+                'attribute' => 'title'
+            ]
+
+        ];
     }
 
     /**
@@ -33,7 +52,7 @@ class Article extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'slug', 'body'], 'required'],
+            [['title', 'body'], 'required'],
             [['body'], 'string'],
             [['created_at', 'updated_at', 'created_by'], 'integer'],
             [['title', 'slug'], 'string', 'max' => 1024],
