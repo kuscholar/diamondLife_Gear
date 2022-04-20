@@ -67,9 +67,9 @@ class Data extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Title',
-            'slug' => 'Slug',
-            'body' => 'Body',
+            'title' => 'Item you are looking for',
+            'slug' => 'What is it for',
+            'body' => 'Suggestions for diamondLife',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'created_by' => 'Created By',
