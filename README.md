@@ -9,12 +9,12 @@ This is a full-stack application for the coding challenge from diamondLife. The 
 - Grunt. This is a NodeJS task runner. It will be used to run Compass. 
 - TypeScript. All JavaScript should be written using TypeScript.
 ## CHALLENGE:
-- [ ] Create a two-page application using the Yii framework. 
-- [ ] One of these pages should contain a form for submitting data to a database. 
-- [ ] The other page should allow users to see what has been submitted.
-- [ ] Both of these pages should have JavaScript UI. The complexity of the JavaScript UI is 
+- [X] Create a two-page application using the Yii framework. 
+- [X] One of these pages should contain a form for submitting data to a database. 
+- [X] The other page should allow users to see what has been submitted.
+- [X] Both of these pages should have JavaScript UI. The complexity of the JavaScript UI is 
 not as important as clearly demonstrating the use of TypeScript to JavaScript.
-- [ ] All CSS used in the application should be written using SCSS compiled to CSS via Grunt/
+- [X] All CSS used in the application should be written using SCSS compiled to CSS via Grunt/
 Compass.
 
 ## HOW TO RUN:
