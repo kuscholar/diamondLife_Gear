@@ -1,4 +1,4 @@
-# Shopping Cart Coding Challenge by diamondLife
+# Shopping Cart Coding Challenge from diamondLife
 This is a full-stack application for the coding challenge from diamondLife. The application is built on Yii2 frameworks. 
 
 ## SETUP:
