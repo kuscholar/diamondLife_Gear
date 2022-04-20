@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Data */
 
-$this->title = 'Enter Data';
-$this->params['breadcrumbs'][] = ['label' => 'Data Entered', 'url' => ['index']];
+$this->title = 'Request New Item';
+$this->params['breadcrumbs'][] = ['label' => 'Request list', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="article-create">

@@ -66,13 +66,13 @@ class Data extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
+            'id' => 'Item ID',
             'title' => 'Item you are looking for',
-            'slug' => 'What is it for',
-            'body' => 'Suggestions for diamondLife',
+            'slug' => 'Name of product',
+            'body' => 'What is it for',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
-            'created_by' => 'Created By',
+            'created_by' => 'Created By User ID',
         ];
     }
 

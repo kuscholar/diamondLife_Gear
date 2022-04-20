@@ -9,7 +9,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\DataSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Data Entered';
+$this->title = 'Request list';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="article-index">
@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php if (!Yii::$app->user->isGuest): ?>
 
         <p>
-            <?= Html::a('Enter Data', ['create'], ['class' => 'btn btn-success']) ?>
+            <?= Html::a('Request New Item', ['create'], ['class' => 'btn btn-success']) ?>
         </p>
     <?php endif; ?>
 
@@ -35,9 +35,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'title',
 //            'slug',
             'body:ntext',
-            'created_at',
+//            'created_at',
             //'updated_at',
-            //'created_by',
+            'created_by',
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, \app\models\Data $model, $key, $index, $column) {

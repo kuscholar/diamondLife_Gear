@@ -25,7 +25,7 @@ AppAsset::register($this);
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
-<header>
+<header color="black">
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
@@ -37,7 +37,7 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Enter Data', 'url' => [Yii::$app->homeUrl]],
+            ['label' => 'Request New Item', 'url' => [Yii::$app->homeUrl]],
 //            ['label' => 'Enter Data', 'url' => ['/site/entry']],
 //            ['label' => 'About', 'url' => ['/site/about']],
 //            ['label' => 'Enter Data', 'url' => ['/site/entry']],
@@ -75,7 +75,7 @@ AppAsset::register($this);
 
 <footer class="footer mt-auto py-3 text-muted">
     <div class="container">
-        <p class="float-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="float-left">&copy; Created by Kusch Qin, April 2022</p>
         <p class="float-right"><?= Yii::powered() ?></p>
     </div>
 </footer>

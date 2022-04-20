@@ -6,6 +6,8 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model app\models\Data */
 /* @var $form yii\widgets\ActiveForm */
+
+// $form->field($model, 'slug')->textInput(['maxlength' => true])
 ?>
 
 <div class="article-form">
@@ -14,7 +16,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'slug')->textInput(['maxlength' => true]) ?>
+
 
     <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
 
@@ -25,3 +27,4 @@ use yii\widgets\ActiveForm;
     <?php ActiveForm::end(); ?>
 
 </div>
+
