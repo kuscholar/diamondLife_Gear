@@ -1,6 +1,8 @@
 # Shopping Cart Coding Challenge from diamondLife
 This is a full-stack application for the coding challenge from diamondLife. The application is built on Yii2 frameworks. 
 
+***You can simply check it out from <a href="http://kusch-pc.unstc.site:20666/">HERE</a>.***
+
 ## SETUP:
 ### Download and install these tools: 
 - Yii 2 advanced application
