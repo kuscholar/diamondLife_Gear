@@ -1,3 +1,81 @@
+# Shopping Cart Coding Challenge from diamondLife
+This is a full-stack application for the coding challenge from diamondLife. The application is built on Yii2 frameworks. 
+
+***You can simply check it out from <a href="http://kusch-pc.unstc.site:20666/">HERE</a>.***
+
+## SETUP:
+### Download and install these tools: 
+- Yii 2 advanced application
+- MySQL
+- Compass. This is a Ruby application that will be used to compile SCSS into CSS.
+- Grunt. This is a NodeJS task runner. It will be used to run Compass. 
+- TypeScript. All JavaScript should be written using TypeScript.
+## CHALLENGE:
+- [X] Create a two-page application using the Yii framework. 
+- [X] One of these pages should contain a form for submitting data to a database. 
+- [X] The other page should allow users to see what has been submitted.
+- [X] Both of these pages should have JavaScript UI. The complexity of the JavaScript UI is 
+not as important as clearly demonstrating the use of TypeScript to JavaScript.
+- [X] All CSS used in the application should be written using SCSS compiled to CSS via Grunt/
+Compass.
+
+## HOW TO RUN:
+- Clone the repo to your local folder.
+- In your terminal, navigate to the local repo folder.
+- Run
+
+        cd .\web\
+        
+  to navigate into the \web subfolder inside the project folder.
+- Run
+
+        php -S localhost:8080
+
+  to deploy onto your computer.
+- In your browser, go to http://localhost:8080/
+    to check the deployed application.
+    
+## HOW TO USE
+- You will need to sign up first in order to enter data.
+    - Enter your username and password, and repeat password.
+    - Make sure the password repeat is the same as the password.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61807135/164148722-4f4950bd-d301-4356-a114-c30ba3f30442.png">
+</p>
+
+- You can then login using the credentials you used for signing up.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61807135/164149332-a9b2a3d1-9e13-49dc-acf0-3468b63084e6.png">
+</p>
+
+- After logging in, you will be directed to the page for entering new data, you can request an item you want to buy on diamondLife there:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61807135/164149501-b3e2fb11-1456-4bdb-8a10-34f6b5164025.png">
+</p>
+
+- After entering data, you will be redirected to the details page showing you the data you just entered. You can Update/Delete the data you entered.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61807135/164149560-07d769bd-51fa-4a83-82ad-b306357c3874.png">
+</p>
+
+- You can click on 'Request list' to view submitted data.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61807135/164149831-59a8ab78-92a4-4a0a-a135-8c906c300bea.png">
+</p>
+
+Note: you will only be able to edit your own data, Update/Delete data entered by others will be forbidden.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61807135/164149899-b3c3da02-39af-4ad1-bbaf-472969ef3320.png">
+</p>
+
+
+------------
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
